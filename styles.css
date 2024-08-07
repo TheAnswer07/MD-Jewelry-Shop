@@ -11,17 +11,28 @@ p {
 }
 
 .products {
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: top;
 }
 
 .products img {
-    width: 300px;
+    width: 100%;
     height: 500px;
     object-fit: cover;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: top;
     margin-right: 15px;
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+.prod-row {
+    width: 100%;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
 }
