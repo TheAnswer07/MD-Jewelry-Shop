@@ -4,14 +4,13 @@ p {
     margin-bottom: 0;
 }
 
-.logo,
+/* .logo,
 .nav-btns,
 .nav-input {
     display: inline-block;
-}
+} */
 
 .products {
-    /* display: inline-block; */
     vertical-align: top;
 }
 
@@ -19,7 +18,6 @@ p {
     width: 100%;
     height: 500px;
     object-fit: cover;
-    /* display: inline-block; */
     vertical-align: top;
     margin-right: 15px;
     margin-bottom: 15px;
